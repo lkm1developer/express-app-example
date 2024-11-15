@@ -2,7 +2,7 @@
 # Registry, and deploy it to GKE when there is a push to the "main"
 # branch.
 #
-# To configure this workflow:
+# To configure this workflow2:
 #
 # 1. Enable the following Google Cloud APIs:
 #
