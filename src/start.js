@@ -7,6 +7,7 @@ function startServer({port = process.env.PORT} = {}) {
   const app = express()
 
   app.use('/api', getRoutes())
+  app.get('/mytest', (req, res)=>res.json({"status":"working"}))
 
   app.use(errorMiddleware)
 
